@@ -73,6 +73,37 @@ nav li > a {
 
 }
 
+.work {
+
+position: relative;
+display: flex;
+box-align: center;
+align-items: center;
+box-pack: center;
+justify-content: center;
+}
+
+.work1, .work2, .work3, .work4, .work5, .work6 {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+
+   
+
+}
+
+.column:hover::after{
+    background-color: blue;
+
+    
+}
+
+
+
+
+
 
 
 .row {
