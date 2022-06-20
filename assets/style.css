@@ -1,6 +1,7 @@
 body {
     background-color: rgb(174, 112, 255);
     text-size-adjust: auto;
+    zoom: 25%;
 }
 header {
     max-width:100%;
