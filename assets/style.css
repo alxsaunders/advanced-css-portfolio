@@ -73,18 +73,6 @@ nav li > a {
 
 }
 
-aside {
-display: flex;
-flex-wrap: wrap;
-}
-
-aside li {
-    font-size: 300px;
-    border: #8a9cff 2px dashed
-
-
-
-}
 
 
 .row {
@@ -135,13 +123,53 @@ article{
     font-size: 100px;
 }
 
-.about-me img{
+#about-me img{
     width: 1000px;
 
 }
-.about-me article {
+#about-me article {
     display: flex;
     position: relative;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 250px;
+   
+    
+    
+
+}
+
+h4 {
+    position: absolute;
+    font-size: 100px;
+    left: 10px;
+}
+
+#contact-me ul{
+    left: 60vh;
+    
+   
+}
+
+/* } */
+#contact-me ul li {
+    font-size: 100px;
+    list-style: none;
+    position: relative;
+    padding: 30px;
+    display: inline-flex;
+    
+ 
+    
+      
+    
+    
+    
 }
 
 
