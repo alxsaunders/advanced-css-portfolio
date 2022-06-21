@@ -159,12 +159,33 @@ display: block;
   
 }
 
+
 article{
+    padding-top: 100px;
+    position: relative;
+    display: flex;
     font-size: 100px;
+    justify-content: center;
+    
+}
+
+h2, h3, h4{
+    font-size: 200px;
+    color: white;
+    position: relative;
+    padding-top: 150px;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 300px;
+    text-align: center;
 }
 
 #about-me img{
-    width: 100%;
+    width: 70%;
+    padding: 100px;
+    height: 50%;
+    margin-left: 350px;
+
 
 }
 #about-me article {
@@ -178,11 +199,15 @@ footer {
     align-items: center;
     justify-content: center;
     padding-bottom: 250px;
+}
+
+footer ul li {
+margin-top: 200px;
+
+}
    
     
     
-
-}
 
 h4 {
     position: absolute;
