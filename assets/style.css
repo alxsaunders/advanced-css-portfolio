@@ -1,7 +1,9 @@
+
 body {
     background-color: #8a9cff;
     text-size-adjust: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    zoom:25%;
 
 }
 header {
@@ -181,9 +183,9 @@ h2, h3, h4{
 }
 
 #about-me img{
-    width: 70%;
+    width: 200px;
     padding: 100px;
-    height: 50%;
+    height: 200px;
     margin-left: 350px;
 
 
