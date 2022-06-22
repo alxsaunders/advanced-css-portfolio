@@ -20,7 +20,7 @@ header {
     margin:0 auto;
     padding: 0.2rem;
     color:#fff;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -36,13 +36,16 @@ h1 {
 nav li {
     position: relative;
     display: inline-block;
-    padding: .2rem;
+    padding: .1rem;
     background-color: #fff;
     border: .2rem solid blue;
     border-radius: .4rem;
     font-weight: bold;
 }
 
+#about-me a {
+    color: #fff;
+}
 
 
 
@@ -204,11 +207,11 @@ h2, h4{
 }
 
 #about-me img{
-    border: 20px solid blue;
+    border: 13px solid blue;
     border-radius: 40%;
     box-shadow: -42px 44px 10px rgba(0, 0, 0, 0.562);
     width: 40%;
-    height: 5rem;
+    height: 6.5rem;
     margin-left: 1.3rem;
    
 
@@ -312,24 +315,33 @@ a {
         flex-direction: column; 
         flex: 1 1;
         flex-wrap: wrap; 
+        align-items: center;
         align-content: center; 
-        justify-content: center;
-       
-
-        
-        
-        
-
+        justify-items: center;
     }
+    
+    /* #about-me img{
+        align-items: center;
+    } */
 
-  }
-/* 
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
-    }
-  }
   
 
+}
+
+        
+        
+        
+
+
+
+
+
   @media screen and (max-width: 576px) {
-  } */
+    *:not(title){
+        flex-direction: column; 
+        flex: 1 1;
+        flex-wrap: wrap; 
+        align-content: center; 
+        justify-content: center;
+  } 
+}
