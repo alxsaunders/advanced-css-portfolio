@@ -269,9 +269,10 @@ footer ul li {
     left: 8.5%;
     top: 12%;
     height: 75%;
-    width: 86%;
+    width: 87%;
     opacity: 0;
     transition: opacity 0.25s;
+    border-radius: .6rem;
 }
 
 
